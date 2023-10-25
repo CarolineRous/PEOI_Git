@@ -24,10 +24,12 @@ git diff n°IDcommit : affiche la différence entre le commit actuel et le commi
 git branch : liste les branches existantes
 git branch NomBranche : Créer une nouvelle branche NomBranche
 git checkout NomBranche : déplacement sur la branche NomBranche
+git merge NomBrancheAFusionner : En étant placé sur la branche qu'on veut garder parès fusion, permet de fusionner avec la branche à fucionner
 
 	<li><h3>GitHub></h3></li>
-git push : mais en ligne la version de travail et sauvegarde à distance
-
+git remote add origin https://URL du repository distant : connection avec le repository distant
+git push -u origin master: mais en ligne la version de travail et sauvegarde sur le repository distant
+                           -u : en mode upstream pour créer la branche quand elle n'existe pas
 	<li><h3>Bitbucket</h3></li>
 
 	<li><h3>GitLab</h3></li>
